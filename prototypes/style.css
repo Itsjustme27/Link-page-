@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(to right, #159957, #155799);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.image-container {
+text-align: center;
+width: 100%;
+}
+
+.links-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.link {
+min-width: 50% !important;
+}
+
+
+@media (min-width: 768px) {
+.container {
+  max-width: 720px;
+}
+
+.link {
+  width: 100%;
+}
+}
+@media (min-width: 576px) {
+.container {
+  max-width: 540px;
+}
+}
+
+
+.w3-large, .w3-text-white{
+  font-family: cursive;
+}
+
+#tiktok, #insta{
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon1{
+  padding-right: -9em ;
+  padding-top: 40px;
+}
